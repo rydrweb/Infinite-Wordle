@@ -1,0 +1,49 @@
+body {
+    background-color: black;
+}
+
+#board {
+    color: white;
+    font-size: 70px;
+    font-family: "Manaco", monospace;
+    text-align: center;
+}
+
+#word {
+    background-color: black;
+    font-family: "Manaco", monospace;
+    border: 1px white solid;
+    color: white;
+    font-size: 20px;
+}
+
+#form {
+    position: fixed;
+    left: 50%;
+    bottom: 20px;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+}
+
+.letter {
+    display: inline-block;
+    border: 1px white solid;
+    width: 70;
+    color: white;
+}
+
+#submit {
+    color: white;
+    font-family: "Manaco", monospace;
+    text-align: center;
+    font-size: 20px;
+    background-color: black;
+    border: 1px white solid;
+}
+
+#wordle {
+    color: white;
+    font-family: "Manaco", monospace;
+    text-align: center;
+    font-size: 90px;
+}
