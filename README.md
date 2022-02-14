@@ -1,10 +1,11 @@
 # Infinite-Wordle
 [site](https://urmum.org/)
-
-# New words
-
+# New words (since release)
+* maced
+* laced
+* prawn
+* mains
 # Change log
-
 ## 2/13/2021
 * added words
 * added github button
