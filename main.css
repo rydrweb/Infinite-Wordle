@@ -66,3 +66,20 @@ a:visited {
     color: white;
     text-decoration: none;
 }
+
+.swal-modal {
+    background-color: black;
+    border: 3px solid white;
+  }
+
+  .swal-title {
+      color: white;
+  }
+
+  .swal-text {
+    color: white;
+  }
+
+  .swal-button {
+    background-color:#2ab825;
+  }

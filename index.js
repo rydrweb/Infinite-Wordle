@@ -16,7 +16,7 @@ function wordle() {
   const board = document.getElementById("board")
   var word = document.getElementById("word").value.toLowerCase()
   if (word.length < 5 || !(legal.includes(word))) {
-    alert("Word must be valid")
+    swal("Invalid word!","Word must be real and 5 letters long", "error")
     return
   }
   document.getElementById("word").value = ""
@@ -40,6 +40,7 @@ function wordle() {
   nl(board)
   if (word == ans) {
     document.getElementById("submit").remove()
+    document.getElementById("word").remove()
     return
   }
   guesses++
@@ -48,5 +49,6 @@ function wordle() {
     lose.textContent = "The word was "+ans
     board.appendChild(lose)
     document.getElementById("submit").remove()
+    document.getElementById("word").remove()
   }
 }
