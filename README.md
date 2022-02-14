@@ -6,9 +6,10 @@
 * prawn
 * mains
 * robin
+* palms
 # Change log
 ## 2/14/2022
-* added some quality of life such as being able to press enter to submit
+* added some quality of life such as being able to press enter to submit and not losing input focus
 * styled alerts
 ## 2/13/2021
 * added words
