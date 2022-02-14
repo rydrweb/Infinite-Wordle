@@ -23,7 +23,13 @@
      if (e.code === "Enter") {
          wordle();
      }
+     try {swal.close();}
+     catch (e) {}
     });
+
+    word.onblur = function () {
+        word.focus()
+    }
 </script>
 
 <link rel="stylesheet" href="main.css">

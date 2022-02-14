@@ -12,7 +12,7 @@ function nl(element){
   element.appendChild(nextLine)
 }
 
-function wordle() {
+async function wordle() {
   const board = document.getElementById("board")
   var word = document.getElementById("word").value.toLowerCase()
   if (word.length < 5 || !(legal.includes(word))) {
