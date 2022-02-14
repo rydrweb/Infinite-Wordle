@@ -45,7 +45,7 @@ function wordle() {
   guesses++
   if (guesses == 6) {
     var lose = document.createElement("p")
-    lose.textContent = "You Lost :("
+    lose.textContent = "The word was "+ans
     board.appendChild(lose)
     document.getElementById("submit").remove()
   }

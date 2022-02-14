@@ -47,3 +47,22 @@ body {
     text-align: center;
     font-size: 90px;
 }
+
+#github {
+    position: absolute;
+    color: white;
+    font-family: "Manaco", monospace;
+    text-align: left;
+    right: 10px;
+    bottom: 10px;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
