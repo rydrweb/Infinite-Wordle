@@ -15,11 +15,12 @@ function nl(element){
 async function wordle() {
   const board = document.getElementById("board")
   var word = document.getElementById("word").value.toLowerCase()
+  document.getElementById("word").value = ""
+  if (word.length == 0) {return}
   if (word.length < 5 || !(legal.includes(word))) {
     swal("Invalid word!","Word must be real and 5 letters long", "error")
     return
   }
-  document.getElementById("word").value = ""
   var lans = ans.split("")
   for (var i = 0; i < word.length; i++) {
     var letter = document.createElement("span")
