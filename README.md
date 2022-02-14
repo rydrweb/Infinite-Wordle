@@ -1,6 +1,8 @@
 # Infinite-Wordle
 [site](https://urmum.org/)
 
+# New words
+
 # Change log:
 
 ## 2/13/2021
