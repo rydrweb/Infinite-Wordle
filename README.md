@@ -3,7 +3,7 @@
 
 # New words
 
-# Change log:
+# Change log
 
 ## 2/13/2021
 * added github button
