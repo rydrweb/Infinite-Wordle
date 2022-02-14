@@ -5,4 +5,4 @@
 
 ## 2/13/2021
 * added github button
-* made it so it tells you what word it was when you lose
+* it now tells you the word when you lose
